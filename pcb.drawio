@@ -1,0 +1,177 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="M9G8NU8uyr_x1AorjkSF">
+    <mxGraphModel dx="1826" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="beVda-kUNKe2G4muDUeT-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="480" width="480" x="70" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-5" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=blockThin;startFill=1;" target="beVda-kUNKe2G4muDUeT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-9" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="beVda-kUNKe2G4muDUeT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;u&gt;Battery&lt;/u&gt;&lt;div&gt;Voltgage?&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Amp?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="-80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;u&gt;BME 280&lt;/u&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="710" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="^ measures Temp, humidity and pressure" vertex="1">
+          <mxGeometry height="90" width="60" x="720" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-12" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="beVda-kUNKe2G4muDUeT-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="150" />
+              <mxPoint x="260" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;u&gt;Connector&lt;/u&gt;&lt;div&gt;barrel jack?&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="60" x="90" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PCB" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-19" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="beVda-kUNKe2G4muDUeT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;Voltage Step Up Circuit&lt;br&gt;&lt;/u&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;to 12 V&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="275" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-22" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="3.3V">
+          <mxGeometry relative="1" x="-0.3333" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="490" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;Voltage Regulator Circuit&lt;/u&gt;&lt;div&gt;low drop linear?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="275" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-13" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;" target="beVda-kUNKe2G4muDUeT-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="160" />
+              <mxPoint x="260" y="182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-15" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="12 V anenometer" vertex="1">
+          <mxGeometry height="80" width="80" x="700" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-18" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="beVda-kUNKe2G4muDUeT-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-16" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="IDK connector" vertex="1">
+          <mxGeometry height="60" width="60" x="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-56" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="beVda-kUNKe2G4muDUeT-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="290" />
+              <mxPoint x="420" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;STM32L152RE&lt;/u&gt;&lt;div&gt;microcontroller&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="100" x="310" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-39" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="beVda-kUNKe2G4muDUeT-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="programming header" vertex="1">
+          <mxGeometry height="40" width="100" x="110" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-51" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="beVda-kUNKe2G4muDUeT-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="370" />
+              <mxPoint x="290" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="External Timer" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-52" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="beVda-kUNKe2G4muDUeT-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="470" />
+              <mxPoint x="290" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="External Clock?&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-29" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Connector&lt;div&gt;JST PH 2.0&lt;/div&gt;&lt;div&gt;or molex?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="450" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-33" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;u&gt;DIY Anenometer&lt;/u&gt;&lt;div&gt;Requires 5V?&amp;nbsp;&lt;/div&gt;&lt;div&gt;Hall sensor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="710" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-34" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;u&gt;DIY Windvane&lt;/u&gt;&lt;div&gt;requres 5V?&amp;nbsp;&lt;/div&gt;&lt;div&gt;Hall sensor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="710" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-36" edge="1" parent="1" source="beVda-kUNKe2G4muDUeT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="beVda-kUNKe2G4muDUeT-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="270" as="sourcePoint" />
+            <mxPoint x="10" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-37" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Conmputer&lt;div&gt;(needs back protection)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="-80" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="374.64" as="sourcePoint" />
+            <mxPoint x="100" y="374.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-43" connectable="0" parent="beVda-kUNKe2G4muDUeT-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3.3V" vertex="1">
+          <mxGeometry relative="1" x="-0.3476" y="2" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-45" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="470" as="sourcePoint" />
+            <mxPoint x="100" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-46" connectable="0" parent="beVda-kUNKe2G4muDUeT-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3.3V" vertex="1">
+          <mxGeometry relative="1" x="-0.3476" y="2" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="330" as="sourcePoint" />
+            <mxPoint x="310" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-48" connectable="0" parent="beVda-kUNKe2G4muDUeT-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3.3V" vertex="1">
+          <mxGeometry relative="1" x="-0.3476" y="2" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="260" as="sourcePoint" />
+            <mxPoint x="110" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVda-kUNKe2G4muDUeT-50" connectable="0" parent="beVda-kUNKe2G4muDUeT-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3.3V" vertex="1">
+          <mxGeometry relative="1" x="-0.3476" y="2" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
